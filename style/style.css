@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.logo{
+    width: 62px;
+    height: 62px;
+    position: relative;
+}
+nav{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+   
+
+}
+.spn2{
+    font-size: 32px;
+    font-weight: bold;
+}
+li{
+    gap: 32px;
+}
+.btn1{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #FEA301;
+}
+.logo.school{
+    width: 123px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 32px;
+ 
+}
+
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+.nn{
+    color: #FEA301;
+}
+.orng1{
+    font-size: 3.5rem;
+    color: #FEA301;
+    font-weight: bold;
+
+}
+.orng2{
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}
+.sp-12{
+    color: #01ACFD;
+}
+.banner.1{
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+.banner{
+    display: flex;
+    height: 575px;
+    width: 1158.61px;
+    gap: 50px;
+}
+.hero{
+
+    width: 468.61px;
+    height: 575px;
+}
