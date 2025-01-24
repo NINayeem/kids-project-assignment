@@ -1,16 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700
-
-.font {
-  font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
+body {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
 
 .logo{
     width: 62px;
@@ -29,6 +25,7 @@ nav{
 nav ul li {
     list-style: none;
     display: inline-block;
+    margin: 32px;
    
 
 }
@@ -44,6 +41,9 @@ li{
     height: 50px;
     border-radius: 12px;
     background-color: #FEA301;
+    color: #FFFFFF;
+    font-weight: semibold;
+    font-size: 20px;
 }
 .logo.school{
     width: 123px;
@@ -59,6 +59,22 @@ nav ul li a{
 }
 .nn{
     color: #FEA301;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nn2{
+    color: #01ACFD;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nn3{color: #05D4DF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nn4{color: #5D58EF;
+    font-size: 20px;
+    font-weight: bold;
+    
 }
 .orng1{
     font-size: 3.5rem;
