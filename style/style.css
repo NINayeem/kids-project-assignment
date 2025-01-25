@@ -93,6 +93,7 @@ nav ul li a{
 .banner.1{
     font-size: 1.3rem;
     font-weight: bold;
+
     
 }
 .banner{
@@ -105,4 +106,131 @@ nav ul li a{
 
     width: 468.61px;
     height: 575px;
+    justify-content: space-between;
 }
+.bt2{
+    height: 50px;
+    width: 197px;
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px 10px;
+    color: white;
+}
+.cont1{
+    background-color: #DEF5FF;
+    height: 476.78px;
+    width: 367.8px;
+    border-radius: 18.86px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(223, 104, 0) , rgb(222, 16, 115));
+}
+.cont2{
+    background-color: #DEF5FF;
+    height: 476.78px;
+    width: 367.8px;
+    border-radius: 18.86px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(51, 238, 194) , rgb(90, 90, 14));
+    
+}
+.cont3{
+    background-color: #DEF5FF;
+    height: 476.78px;
+    width: 367.8px;
+    border-radius: 18.86px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(48, 153, 218) , rgb(219, 219, 174));
+}
+.box{
+    display: flex;
+    width: 1440px;
+    height: 88px;
+    padding: 0px 60 px;
+    margin: 80px;
+    gap: 20px;
+    
+}
+.bg-bg{
+    background-image: url(../assets/bg.png);
+}
+.bimg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.title1{
+    
+    align-items: center;
+    font-size: 46px;
+    font-weight: bold;
+}
+.box.btn{
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+   margin: 50px;
+}
+@media  (max-width 768px){
+
+.manu{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    z-index: 100;
+}
+.hero{
+    width: 100%;
+}
+.navmain.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box{
+    padding: 20px;
+}
+}
+    a{
+        text-decoration: none;
+        margin-top: 50px;
+    }
+    .box.pic1{
+        height: 111.94px;
+        width: 130.07px;
+       padding: 123.7px 197px;
+    }
+   
+    .htory1{
+        background-color: #FFFFFF;
+    }
+    .btn-s1{
+        padding-right: 20px;
+        width: 174.51px;
+        height: 47.93px;
+        background-color: #3CD8E8;
+        border-radius: 47.93px;
+       margin-top: 0px;
+        color: white;
+    }
+    .story12{
+        background-color: rgb(209, 219, 229);
+        height: 630.52px;
+        width: 540.27px;
+        border-radius: 16px;
+    }
+    .story13{
+        background-color: rgb(209, 219, 229);
+        height: 301px;
+        width: 290px;
+        border-radius: 16px;
+    
+    }
+    .story-prnt{
+        background-image: url(../assets/bg.png);
+        display: grid;
+    }
